@@ -5,6 +5,35 @@
 
 
 // -------------------------------------------------------------
+// 0. Typography — Font Stack
+// -------------------------------------------------------------
+
+body {
+  font-family: $global-font-family;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  font-weight: 400; // DM Serif Display only has one weight
+}
+
+// Author name in sidebar — display serif
+.author__name {
+  font-family: $header-font-family;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+// Publication titles use display serif for elegance
+.paper-box-text h3 {
+  font-family: $header-font-family;
+}
+
+
+// -------------------------------------------------------------
 // 1. Page Structure & Decorative Elements
 // -------------------------------------------------------------
 
