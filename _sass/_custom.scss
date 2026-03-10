@@ -10,26 +10,34 @@
 
 body {
   font-family: $global-font-family;
-  font-weight: 400;
+  font-weight: 300; // DM Sans 300 — lighter, more elegant
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+// DM Serif Display has only one weight (400).
+// Must override the theme's default font-weight: bold on all headings.
 h1, h2, h3, h4, h5, h6 {
   font-family: $header-font-family;
-  font-weight: 400; // DM Serif Display only has one weight
+  font-weight: 400 !important;
+}
+
+// Body copy slightly heavier than body default
+p, li, .authors, .venue {
+  font-weight: 400;
 }
 
 // Author name in sidebar — display serif
 .author__name {
   font-family: $header-font-family;
-  font-weight: 400;
+  font-weight: 400 !important;
   letter-spacing: -0.01em;
 }
 
-// Publication titles use display serif for elegance
+// Publication titles — DM Serif Display, natural weight only
 .paper-box-text h3 {
   font-family: $header-font-family;
+  font-weight: 400 !important;
 }
 
 
