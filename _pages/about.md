@@ -74,7 +74,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
   <div class='paper-box floating-card' data-tags="First Author, Neuroprotection, Drug Discovery, JCR-Q1">
     <div class='paper-box-text'>
-      <h3>DST-3, a novel cryptotanshinone derivate, attenuates glutamate excitotoxicity after ischemic stroke via CREB-Homer1 axis activation</h3>
+      <h3><a href="https://doi.org/10.1016/j.phymed.2025.157223">DST-3, a novel cryptotanshinone derivate, attenuates glutamate excitotoxicity after ischemic stroke via CREB-Homer1 axis activation</a></h3>
       <div class="authors"><span class="primary-gradient-text">Y Dai</span>, J Yu, G He, M Liang, YZ Wen, R Guan, X Ye, Y Guo, J Lu, J Chen, ...</div>
       <div class="venue">Phytomedicine 147, 157223 (2025) — IF=8.3, JCR-Q1</div>
     </div>
@@ -82,29 +82,23 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
   <div class='paper-box floating-card' data-tags="First Author, E-cigarette Toxicology, JCR-Q1">
     <div class='paper-box-text'>
-      <h3>Long-term effects of chronic exposure to electronic cigarette aerosol on the cardiovascular and pulmonary system in mice: A comparative study to cigarette smoke</h3>
+      <h3><a href="https://doi.org/10.1016/j.envint.2024.108521">Long-term effects of chronic exposure to electronic cigarette aerosol on the cardiovascular and pulmonary system in mice: A comparative study to cigarette smoke</a></h3>
       <div class="authors"><span class="primary-gradient-text">Y Dai</span>, W Yang, H Song, X He, R Guan, Z Wu, X Jiang, M Li, P Liu, J Chen</div>
       <div class="venue">Environment International 185, 108521 (2024) — IF=9.7, JCR-Q1 | Cited: 21</div>
-      <div class="links">
-        <a href="https://doi.org/10.1016/j.envint.2024.108521" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-      </div>
     </div>
   </div>
 
   <div class='paper-box floating-card' data-tags="First Author, E-cigarette Toxicology, JCR-Q1">
     <div class='paper-box-text'>
-      <h3>Inhalation of electronic cigarettes slightly affects lung function and inflammation in mice</h3>
+      <h3><a href="https://doi.org/10.3389/ftox.2023.1232040">Inhalation of electronic cigarettes slightly affects lung function and inflammation in mice</a></h3>
       <div class="authors"><span class="primary-gradient-text">Y Dai</span>, K Duan, G Huang, X Yang, X Jiang, J Chen, P Liu</div>
       <div class="venue">Frontiers in Toxicology 5, 1232040 (2023) — IF=4.6, JCR-Q1 | Cited: 11</div>
-      <div class="links">
-        <a href="https://doi.org/10.3389/ftox.2023.1232040" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-      </div>
     </div>
   </div>
 
   <div class='paper-box floating-card' data-tags="Co-Author, Public Health, JCR-Q1">
     <div class='paper-box-text'>
-      <h3>Cigarettes smoking and e-cigarettes using among university students: a cross-section survey in Guangzhou, China, 2021</h3>
+      <h3><a href="https://doi.org/10.1186/s12889-023-15356-8">Cigarettes smoking and e-cigarettes using among university students: a cross-section survey in Guangzhou, China, 2021</a></h3>
       <div class="authors">H Song, X Yang, W Yang, <span class="primary-gradient-text">Y Dai</span>, K Duan, X Jiang, G Huang, M Li, ...</div>
       <div class="venue">BMC Public Health 23 (1), 438 (2023) — IF=3.6, JCR-Q1 | Cited: 58</div>
     </div>
@@ -112,7 +106,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
   <div class='paper-box floating-card' data-tags="Co-Author, COPD, Drug Discovery, JCR-Q1">
     <div class='paper-box-text'>
-      <h3>Cryptotanshinone alleviates lipopolysaccharide and cigarette smoke-induced chronic obstructive pulmonary disease in mice via the Keap1/Nrf2 axis</h3>
+      <h3><a href="https://doi.org/10.1016/j.biopha.2023.115105">Cryptotanshinone alleviates lipopolysaccharide and cigarette smoke-induced chronic obstructive pulmonary disease in mice via the Keap1/Nrf2 axis</a></h3>
       <div class="authors">H Song, L Jiang, W Yang, <span class="primary-gradient-text">Y Dai</span>, Y Wang, Z Li, P Liu, J Chen</div>
       <div class="venue">Biomedicine & Pharmacotherapy 165, 115105 (2023) — IF=7.5, JCR-Q1 | Cited: 43</div>
     </div>
@@ -120,7 +114,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
   <div class='paper-box floating-card' data-tags="Co-Author, Neuroprotection, JCR-Q1">
     <div class='paper-box-text'>
-      <h3>α-Ketoglutarate attenuates oxidative stress-induced neuronal aging via modulation of the mTOR pathway</h3>
+      <h3><a href="https://doi.org/10.3390/ph18081080">α-Ketoglutarate attenuates oxidative stress-induced neuronal aging via modulation of the mTOR pathway</a></h3>
       <div class="authors">R Guan, Z Xue, K Huang, Y Zhao, G He, <span class="primary-gradient-text">Y Dai</span>, M Liang, Y Wen, X Ye, ...</div>
       <div class="venue">Pharmaceuticals 18 (8), 1080 (2025) — IF=4.8, JCR-Q1 | Cited: 3</div>
     </div>
@@ -128,7 +122,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
   <div class='paper-box floating-card' data-tags="Co-Author, Drug Discovery, JCR-Q1">
     <div class='paper-box-text'>
-      <h3>Synthesis and anti-acute ischemic stroke effect of the quinazoline-benzothiazole RIPK1 inhibitors</h3>
+      <h3><a href="https://doi.org/10.1016/j.ejmech.2025.118487">Synthesis and anti-acute ischemic stroke effect of the quinazoline-benzothiazole RIPK1 inhibitors</a></h3>
       <div class="authors">J Luo, X Liu, J Chen, R Su, G Li, G He, X Ye, <span class="primary-gradient-text">Y Dai</span>, J Zhang</div>
       <div class="venue">European Journal of Medicinal Chemistry, 118487 (2025) — IF=5.9, JCR-Q1</div>
     </div>
@@ -136,7 +130,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
   <div class='paper-box floating-card' data-tags="Co-Author, Pulmonary Fibrosis, JCR-Q1">
     <div class='paper-box-text'>
-      <h3>DST-3, a Novel Modified Cryptotanshinone, Protects Against Pulmonary Fibrosis via Inhibiting STAT3/Smad Signaling Pathway and Improves Bioavailability</h3>
+      <h3><a href="https://doi.org/10.3390/pharmaceutics17101307">DST-3, a Novel Modified Cryptotanshinone, Protects Against Pulmonary Fibrosis via Inhibiting STAT3/Smad Signaling Pathway and Improves Bioavailability</a></h3>
       <div class="authors">R Guan, X He, <span class="primary-gradient-text">Y Dai</span>, G Huang, Z Xue, J Chen, P Liu</div>
       <div class="venue">Pharmaceutics 17 (10), 1307 (2025) — IF=5.5, JCR-Q1</div>
     </div>
@@ -144,7 +138,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
   <div class='paper-box floating-card' data-tags="Co-Author, Drug Discovery, JCR-Q1">
     <div class='paper-box-text'>
-      <h3>Design, synthesis, anti-acute ischemic stroke (AIS) effect of receptor-interacting protein kinase 1 (RIPK1) inhibitors containing quinazoline structure</h3>
+      <h3><a href="https://doi.org/10.1016/j.bioorg.2025.109013">Design, synthesis, anti-acute ischemic stroke (AIS) effect of receptor-interacting protein kinase 1 (RIPK1) inhibitors containing quinazoline structure</a></h3>
       <div class="authors">R Su, J Luo, X Liu, J Chen, J Zhang, G He, X Ye, <span class="primary-gradient-text">Y Dai</span>, J Zhang</div>
       <div class="venue">Bioorganic Chemistry, 109013 (2025) — IF=4.7, JCR-Q1</div>
     </div>
@@ -152,7 +146,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
   <div class='paper-box floating-card' data-tags="Co-First Author, Neuroprotection, JCR-Q1">
     <div class='paper-box-text'>
-      <h3>Phytochemical Analysis and Neuroprotective Effect of Salvia castanea Diels f. Tomentosa Stib Extracts</h3>
+      <h3><a href="https://doi.org/10.3390/ph18050728">Phytochemical Analysis and Neuroprotective Effect of Salvia castanea Diels f. Tomentosa Stib Extracts</a></h3>
       <div class="authors">X Peng, <span class="primary-gradient-text">Y Dai</span>, J Chen, J Lu, D Zhou, F Ge, P Liu, X Zhou</div>
       <div class="venue">Pharmaceuticals 18 (5), 728 (2025) — IF=4.8, JCR-Q1</div>
     </div>
@@ -201,9 +195,15 @@ document.addEventListener('DOMContentLoaded', function() {
         const badgeContainer = document.createElement('div');
         badgeContainer.className = 'badge-container';
 
+        const AUTHOR_TAGS = new Set(['First Author', 'Co-First Author', 'Co-Author']);
+        const METRIC_TAGS = /^(JCR-Q[1-4]|CCF-[ABC]|IF=|SCI|EI)/i;
+
         tagsList.forEach(tag => {
           const badge = document.createElement('span');
-          badge.className = 'inner-tag-badge';
+          let cls = 'inner-tag-badge';
+          if (AUTHOR_TAGS.has(tag)) cls += ' tag-author';
+          else if (METRIC_TAGS.test(tag)) cls += ' tag-metric';
+          badge.className = cls;
           badge.textContent = tag;
           badgeContainer.appendChild(badge);
         });
