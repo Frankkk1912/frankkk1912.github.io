@@ -150,7 +150,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Co-Author, Neuroprotection, JCR-Q1">
+  <div class='paper-box floating-card' data-tags="Co-First Author, Neuroprotection, JCR-Q1">
     <div class='paper-box-text'>
       <h3>Phytochemical Analysis and Neuroprotective Effect of Salvia castanea Diels f. Tomentosa Stib Extracts</h3>
       <div class="authors">X Peng, <span class="primary-gradient-text">Y Dai</span>, J Chen, J Lu, D Zhou, F Ge, P Liu, X Zhou</div>
