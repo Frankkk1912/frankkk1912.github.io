@@ -105,7 +105,23 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 </div>
 
 <span class='anchor' id='-publications'></span>
+
 ## 📃 Publications
+
+<div class="stat-cards">
+  <div class="stat-card">
+    <div class="stat-number">10<span class="stat-plus">+</span></div>
+    <div class="stat-label">Publications</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number"><span id="citation-count">136</span><span class="stat-plus">+</span></div>
+    <div class="stat-label">Citations</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">4</div>
+    <div class="stat-label">h-index</div>
+  </div>
+</div>
 
 <div id="publications-wrapper">
   <div id="filter-container"></div>
@@ -313,4 +329,22 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+
+// Fetch citation count from Google Scholar stats
+(function() {
+  var gsUrl = '{{ url }}';
+  if (!gsUrl) return;
+  fetch(gsUrl)
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var count = data && data.message;
+      if (count) {
+        var el = document.getElementById('citation-count');
+        if (el) el.textContent = count;
+      }
+    })
+    .catch(function() {
+      // silently fall back — DOM already shows hardcoded value 136
+    });
+})();
 </script>
