@@ -128,12 +128,12 @@
     margin: 2em 1em 2em 0;
     padding: 1.5em 2em;
     font-style: italic;
-    background: #f8f9fa !important; /* 强制使用浅色背景 */
+    background: #f8f9fa; /* light background */
     border-left: 4px solid var(--accent-color);
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(15, 39, 68, 0.08);
     position: relative;
-    color: var(--primary-color) !important; /* 确保文字颜色 */
+    color: var(--primary-color);
     
   
     cite {
@@ -373,7 +373,7 @@
   
   .highlight-block {
     padding: 1.68rem 1.96rem;
-    background: #ffffff !important; /* 强制使用白色背景 */
+    background: #fff;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba($primary-color, 0.08);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -412,7 +412,7 @@
       
       li {
         margin-bottom: 0.56rem;
-        color: var(--primary-color) !important; /* 确保文字颜色 */
+        color: var(--primary-color);
         line-height: 1.5;
         position: relative;
 
@@ -427,10 +427,10 @@
     }
     
     a {
-      color: var(--primary-color) !important;
+      color: var(--primary-color);
 
       &:hover {
-        color: var(--accent-color) !important;
+        color: var(--accent-color);
       }
 
       &::after {
