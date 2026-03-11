@@ -21,10 +21,12 @@ body {
 }
 
 // DM Serif Display has only one weight (400).
-// Must override the theme's default font-weight: bold on all headings.
-h1, h2, h3, h4, h5, h6 {
+// Scoped to page__content + sidebar — beats theme's global h1-h6 rule without !important.
+.page__content h1, .page__content h2, .page__content h3,
+.page__content h4, .page__content h5, .page__content h6,
+.sidebar h1, .sidebar h2, .sidebar h3 {
   font-family: $header-font-family;
-  font-weight: 400 !important;
+  font-weight: 400;
 }
 
 // Body copy slightly heavier than body default
@@ -44,7 +46,7 @@ p, li, .authors, .venue {
 // Publication titles — DM Serif Display, natural weight only
 .paper-box-text h3 {
   font-family: $header-font-family;
-  font-weight: 400 !important;
+  font-weight: 400;
 }
 
 
@@ -143,9 +145,10 @@ p, li, .authors, .venue {
 // 3. Buttons
 // -------------------------------------------------------------
 
+.page__content .btn-accent,
 .btn-accent {
   background: $accent-color;
-  color: white !important;
+  color: white;
   border: none;
   padding: 12px 24px;
   border-radius: 25px;
@@ -175,7 +178,7 @@ p, li, .authors, .venue {
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba($accent-color, 0.4);
-    color: white !important;
+    color: white;
 
     &::before {
       left: 100%;
@@ -730,8 +733,8 @@ p, li, .authors, .venue {
   gap: 0.4rem;
   padding: 0.5rem 1rem;
   background: $accent-color;
-  color: white !important;
-  text-decoration: none !important;
+  color: white;
+  text-decoration: none;
   border-radius: 25px;
   font-size: 0.85rem;
   font-weight: 600;
@@ -759,8 +762,8 @@ p, li, .authors, .venue {
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 15px rgba($accent-color, 0.3);
-    color: white !important;
-    text-decoration: none !important;
+    color: white;
+    text-decoration: none;
 
     &::before {
       left: 100%;
