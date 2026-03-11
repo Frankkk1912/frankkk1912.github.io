@@ -635,46 +635,6 @@ p, li, .authors, .venue {
   }
 }
 
-// Force light theme — prevent dark mode interference
-@media (prefers-color-scheme: dark) {
-  .floating-card, .highlight-block, .paper-box, .quote-accent {
-    background: #ffffff !important;
-    color: $primary-color !important;
-    border-color: rgba($primary-color, 0.08) !important;
-  }
-
-  .floating-card *, .highlight-block *, .paper-box *, .quote-accent * {
-    color: $primary-color !important;
-  }
-
-  .floating-card a, .highlight-block a, .paper-box a, .quote-accent a {
-    color: $primary-color !important;
-
-    &:hover {
-      color: $accent-color !important;
-    }
-  }
-}
-
-// Ensure base body color
-body {
-  background-color: #ffffff !important;
-  color: $primary-color !important;
-}
-
-.highlight-block, .paper-box, .floating-card, blockquote, .quote-accent {
-  background: #ffffff !important;
-  color: $primary-color !important;
-}
-
-.highlight-block *, .paper-box *, .floating-card *, blockquote *, .quote-accent * {
-  color: $primary-color !important;
-}
-
-// Keep button and badge text white
-.btn-accent, .tag-accent, .badge {
-  color: white !important;
-}
 
 
 // -------------------------------------------------------------
