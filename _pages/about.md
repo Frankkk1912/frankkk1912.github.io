@@ -328,6 +328,29 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   }
+
+  // Scroll reveal — IntersectionObserver
+  // h2 headings get .fade-in-up via JS to avoid markdown churn
+  document.querySelectorAll('.page__content h2').forEach(function(el) {
+    el.classList.add('fade-in-up');
+  });
+
+  var revealObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var el = entry.target;
+        var delay = parseInt(el.dataset.revealDelay || '0', 10);
+        setTimeout(function() {
+          el.classList.add('visible');
+        }, delay);
+        revealObserver.unobserve(el);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-in-up').forEach(function(el) {
+    revealObserver.observe(el);
+  });
 });
 
 // Fetch citation count from Google Scholar stats
