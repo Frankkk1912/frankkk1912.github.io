@@ -545,14 +545,24 @@ p, li, .authors, .venue {
   100% { background-position: 0% 50%; }
 }
 
+// Scroll reveal — triggered by IntersectionObserver adding .visible
 .fade-in-up {
   opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.6s ease;
+  transform: translateY(8px);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
 
-  &.animate {
+  &.visible {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+// Respect user's reduced-motion preference — show all content immediately
+@media (prefers-reduced-motion: reduce) {
+  .fade-in-up {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
 
