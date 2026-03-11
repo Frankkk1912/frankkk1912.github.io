@@ -1,6 +1,5 @@
 _site/
 push.sh
 .DS_Store
-CLAUDE.md
 .claude/settings.local.json
 .superpowers/
