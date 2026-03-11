@@ -8,6 +8,11 @@
 // 0. Typography — Font Stack
 // -------------------------------------------------------------
 
+// Declare light-only site — replaces all dark-mode force overrides
+html {
+  color-scheme: only light;
+}
+
 body {
   font-family: $global-font-family;
   font-weight: 300; // DM Sans 300 — lighter, more elegant
