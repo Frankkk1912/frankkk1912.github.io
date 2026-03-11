@@ -78,7 +78,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 ## 🏫 Educations
 
 <div class="edu-timeline">
-  <div class="edu-item">
+  <div class="edu-item fade-in-up" data-reveal-delay="0">
     <div class="edu-dot"></div>
     <div class="edu-body">
       <div class="edu-date">2025.09 – Present</div>
@@ -86,7 +86,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
       <div class="edu-degree">PhD Candidate in Pharmacology</div>
     </div>
   </div>
-  <div class="edu-item">
+  <div class="edu-item fade-in-up" data-reveal-delay="100">
     <div class="edu-dot"></div>
     <div class="edu-body">
       <div class="edu-date">2022.09 – 2025.06</div>
@@ -94,7 +94,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
       <div class="edu-degree">Master in Pharmacology</div>
     </div>
   </div>
-  <div class="edu-item">
+  <div class="edu-item fade-in-up" data-reveal-delay="200">
     <div class="edu-dot"></div>
     <div class="edu-body">
       <div class="edu-date">2018.06 – 2022.09</div>
@@ -108,7 +108,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 ## 📃 Publications
 
-<div class="stat-cards">
+<div class="stat-cards fade-in-up">
   <div class="stat-card">
     <div class="stat-number">10<span class="stat-plus">+</span></div>
     <div class="stat-label">Publications</div>
@@ -328,6 +328,29 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   }
+
+  // Scroll reveal — IntersectionObserver
+  // h2 headings get .fade-in-up via JS to avoid markdown churn
+  document.querySelectorAll('.page__content h2').forEach(function(el) {
+    el.classList.add('fade-in-up');
+  });
+
+  var revealObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var el = entry.target;
+        var delay = parseInt(el.dataset.revealDelay || '0', 10);
+        setTimeout(function() {
+          el.classList.add('visible');
+        }, delay);
+        revealObserver.unobserve(el);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-in-up').forEach(function(el) {
+    revealObserver.observe(el);
+  });
 });
 
 // Fetch citation count from Google Scholar stats
