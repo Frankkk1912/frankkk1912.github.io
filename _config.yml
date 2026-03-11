@@ -27,10 +27,10 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Yuxing Dai"
+  name             : "Yuxing Dai (Frank)"
   avatar           : "images/avatar.jpg"
   og_image         : "images/profile.png"
-  bio              : "Bridging wet lab pharmacology and multi-omics to discover novel drug targets for cardiovascular and neurological diseases."
+  bio              : "Studying how the heart fails — and how to stop it. PhD candidate in Pharmacology at SYSU."
   location         : "Guangzhou, China"
   employer         :
   pubmed           :

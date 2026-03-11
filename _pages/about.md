@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Yuxing Dai (Frank) - Homepage"
-excerpt: "PhD candidate in Pharmacology at Sun Yat-sen University. Research focus on Translational Pharmacology & Drug Discovery."
+title: "Yuxing Dai (Frank) — Cardiovascular Pharmacology & Drug Discovery"
+excerpt: "PhD candidate at Sun Yat-sen University studying cardiovascular injury mechanisms and translational drug discovery, bridging wet-lab pharmacology and single-cell omics."
 author_profile: true
 redirect_from:
   - /about/
@@ -26,7 +26,7 @@ header:
   <div class="hero-eyebrow">PhD Candidate &middot; Sun Yat-sen University &middot; Pharmacology</div>
   <div class="hero-name">Yuxing Dai (Frank)</div>
   <div class="hero-divider"></div>
-  <p>My name is <span class="accent-text">Yuxing Dai</span> (戴裕兴, you can call me Frank). I'm currently a PhD candidate in Pharmacology at <strong>Sun Yat-sen University (SYSU)</strong>. My research spans translational pharmacology and novel drug target discovery, integrating wet lab experiments with single-cell RNA sequencing and bioinformatics analysis.</p>
+  <p>I work at the interface of experimental pharmacology and computational biology, using single-cell RNA sequencing and multi-omics analysis to map injury mechanisms, then validating drug candidates at the bench. My primary focus is cardiovascular disease — doxorubicin-induced cardiomyopathy and heart failure; adjacent projects address ischemic stroke and organ fibrosis.</p>
   <div class="hero-pills">
     <span class="hero-pill">Cardiovascular Pharmacology</span>
     <span class="hero-pill">Neuroprotection</span>
@@ -36,42 +36,32 @@ header:
   </div>
 </div>
 
-<div class="quote-accent">
-My research focuses on <span class="accent-text">Translational Pharmacology & Drug Discovery</span>:
-  <ul>
-    <li>Cardiovascular pharmacology & e-cigarette cardiopulmonary toxicology</li>
-    <li>Neuroprotective drug development for ischemic stroke (cryptotanshinone derivatives, RIPK1 inhibitors)</li>
-    <li>Computational biology: single-cell RNA-seq, multi-omics data analysis, and deep learning</li>
-  </ul>
-</div>
-
-With a dual background in experimental pharmacology and computational biology, I work across the full pipeline — from molecular assays (WB, qPCR, ELISA, etc.) to multi-omics data analysis using R, Python, and deep learning.
-
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-flask"></i> Researcher</h3>
     <ul>
       <li>Author of <span class="primary-gradient-text">10+ peer-reviewed publications</span> with 136+ citations (h-index: 4)</li>
-      <li>Published in <span class="primary-gradient-text">Environment International</span> (IF=9.7), <span class="primary-gradient-text">Phytomedicine</span> (IF=8.3), and more</li>
     </ul>
+    <a href="https://scholar.google.com/citations?user=f7g1s5sAAAAJ" class="link-accent">→ Google Scholar</a>
   </div>
 
   <div class="highlight-block floating-card">
-    <h3><i class="fas fa-code"></i> Developer</h3>
+    <h3><i class="fab fa-github"></i> Open Source</h3>
     <ul>
-      <li>Creator of <a href="https://github.com/Frankkk1912/xstars" class="link-accent">XSTARS</a>: a free open-source Excel add-in for automated statistical testing and publication-quality figure generation</li>
+      <li>Building open-source tools for researchers. Currently: <a href="https://github.com/Frankkk1912/xstars" class="link-accent">XSTARS</a> — automated statistical testing and publication-quality figure generation for Excel.</li>
     </ul>
+    <a href="https://github.com/Frankkk1912" class="link-accent">→ GitHub</a>
   </div>
 
   <div class="highlight-block floating-card">
-    <h3><i class="fas fa-globe"></i> Open to Collaboration</h3>
+    <h3><i class="fas fa-handshake"></i> Research Collaboration</h3>
     <ul>
-      <li>Remote freelance opportunities in <span class="primary-gradient-text">data analysis, clinical research, pharmaceutical consulting, and AI training</span></li>
+      <li>Open to collaborations in cardiovascular pharmacology, multi-omics data analysis, and translational drug discovery.</li>
     </ul>
+    <a href="mailto:frank1912f@gmail.com" class="link-accent">✉ frank1912f@gmail.com</a>
   </div>
 </div>
 
-Feel free to reach out if you'd like to discuss research or explore potential collaboration!
 
 <span class='anchor' id='-educations'></span>
 
@@ -222,6 +212,25 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <div class="links">
       <a href="https://github.com/Frankkk1912/xstars" class="btn-accent"><i class="fab fa-github"></i> GitHub</a>
     </div>
+  </div>
+</div>
+
+<span class='anchor' id='-contact'></span>
+## 📬 Contact
+
+<div class="highlight-blocks">
+  <div class="highlight-block floating-card">
+    <h3><i class="fas fa-flask"></i> Research Collaboration</h3>
+    <p>Interested in collaborations on cardiovascular pharmacology, multi-omics analysis, or translational drug discovery.</p>
+    <a href="mailto:frank1912f@gmail.com" class="link-accent">✉ frank1912f@gmail.com</a>
+  </div>
+
+  <div class="highlight-block floating-card">
+    <h3><i class="fas fa-briefcase"></i> Consulting</h3>
+    <p>Available for consulting in data analysis (R/Python, bioinformatics), clinical research, and pharmaceutical science.</p>
+    <a href="mailto:frank1912f@gmail.com" class="link-accent">✉ frank1912f@gmail.com</a>
+    &nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/frank-dai-a95b223b5" class="link-accent"><i class="fab fa-linkedin"></i> LinkedIn</a>
   </div>
 </div>
 
