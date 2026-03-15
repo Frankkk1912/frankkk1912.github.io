@@ -5,11 +5,14 @@ main:
   - title: "Educations"
     url: "/#-educations"
 
-  - title: "Publications"
-    url: "/#-publications"
-
   - title: "Awards"
     url: "/#-awards"
 
+  - title: "Publications"
+    url: "/#-publications"
+
   - title: "Projects"
     url: "/#-projects"
+
+  - title: "Contact"
+    url: "/#-contact"

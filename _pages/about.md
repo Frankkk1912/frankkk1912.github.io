@@ -26,7 +26,7 @@ header:
   <div class="hero-eyebrow">PhD Candidate &middot; Sun Yat-sen University &middot; Pharmacology</div>
   <div class="hero-name">Yuxing Dai (Frank)</div>
   <div class="hero-divider"></div>
-  <p>I work at the interface of experimental pharmacology and computational biology, using single-cell RNA sequencing and multi-omics analysis to map injury mechanisms, then validating drug candidates at the bench. My primary focus is cardiovascular disease — doxorubicin-induced cardiomyopathy and heart failure; adjacent projects address ischemic stroke and organ fibrosis.</p>
+  <p>I work at the interface of experimental pharmacology and computational biology, using single-cell RNA sequencing and multi-omics analysis to map injury mechanisms, then validating drug candidates at the bench. My primary focus is cardiovascular disease — from drug-induced cardiotoxicity to heart failure progression. On the translational side, I develop and evaluate natural-product derivatives (cryptotanshinone analogues, etc.) as therapeutic leads, and contribute to preclinical drug evaluation across cardiovascular, neurological, and fibrotic disease models.</p>
   <div class="hero-pills">
     <span class="hero-pill">Cardiovascular Pharmacology</span>
     <span class="hero-pill">Neuroprotection</span>
@@ -38,27 +38,28 @@ header:
 
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
-    <h3><i class="fas fa-flask"></i> Researcher</h3>
-    <ul>
-      <li>Author of <span class="primary-gradient-text">10+ peer-reviewed publications</span> with 136+ citations (h-index: 4)</li>
-    </ul>
-    <a href="https://scholar.google.com/citations?user=f7g1s5sAAAAJ" class="link-accent">→ Google Scholar</a>
+    <h3>🔬 Researcher</h3>
+    <p>Author of <span class="primary-gradient-text">10+ peer-reviewed publications</span> with 136+ citations (h-index: 4). First-author work published in <em>Environment International</em> (IF 9.7), <em>Phytomedicine</em> (IF 8.3), and other JCR-Q1 journals.</p>
+    <div class="card-actions">
+      <a href="https://scholar.google.com/citations?user=f7g1s5sAAAAJ" class="card-link"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+    </div>
   </div>
 
   <div class="highlight-block floating-card">
-    <h3><i class="fab fa-github"></i> Open Source</h3>
-    <ul>
-      <li>Building open-source tools for researchers. Currently: <a href="https://github.com/Frankkk1912/xstars" class="link-accent">XSTARS</a> — automated statistical testing and publication-quality figure generation for Excel.</li>
-    </ul>
-    <a href="https://github.com/Frankkk1912" class="link-accent">→ GitHub</a>
+    <h3>🛠️ Open Source</h3>
+    <p>Building tools for bench researchers — currently developing <a href="https://github.com/Frankkk1912/xstars" class="link-accent">XSTARS</a>, an Excel add-in for automated statistics and publication-quality figures.</p>
+    <p class="text-muted">Analysis pipelines and reproducible code from published studies — coming soon.</p>
+    <div class="card-actions">
+      <a href="https://github.com/Frankkk1912" class="card-link"><i class="fab fa-github"></i> GitHub</a>
+    </div>
   </div>
 
   <div class="highlight-block floating-card">
-    <h3><i class="fas fa-handshake"></i> Research Collaboration</h3>
-    <ul>
-      <li>Open to collaborations in cardiovascular pharmacology, multi-omics data analysis, and translational drug discovery.</li>
-    </ul>
-    <a href="mailto:frank1912f@gmail.com" class="link-accent">✉ frank1912f@gmail.com</a>
+    <h3>🤝 Collaboration</h3>
+    <p>Open to collaborations in cardiovascular pharmacology, multi-omics data analysis, and translational drug discovery. Whether you have a dataset that needs computational analysis or a drug candidate that needs in-vivo validation — let's talk.</p>
+    <div class="card-actions">
+      <a href="mailto:frank1912f@gmail.com" class="card-link"><i class="fas fa-envelope"></i> Get in Touch</a>
+    </div>
   </div>
 </div>
 
@@ -90,6 +91,18 @@ header:
       <div class="edu-date">2018.06 – 2022.09</div>
       <div class="edu-school">Southern Medical University</div>
       <div class="edu-degree">Bachelor</div>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='-awards'></span>
+## 🏆 Awards
+<div class="award-list">
+  <div class="award-item floating-card">
+    <div class="award-year">2024</div>
+    <div class="award-body">
+      <div class="award-name">National Scholarship for Graduate Students (硕士研究生国家奖学金)</div>
+      <div class="award-org">Ministry of Education of China</div>
     </div>
   </div>
 </div>
@@ -140,7 +153,7 @@ header:
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Co-Author, Public Health, JCR-Q1">
+  <div class='paper-box floating-card' data-tags="Co-Author, E-cigarette Toxicology, JCR-Q1">
     <div class='paper-box-text'>
       <h3><a href="https://doi.org/10.1186/s12889-023-15356-8">Cigarettes smoking and e-cigarettes using among university students: a cross-section survey in Guangzhou, China, 2021</a></h3>
       <div class="authors">H Song, X Yang, W Yang, <span class="primary-gradient-text">Y Dai</span>, K Duan, X Jiang, G Huang, M Li, ...</div>
@@ -148,7 +161,7 @@ header:
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Co-Author, COPD, Drug Discovery, JCR-Q1">
+  <div class='paper-box floating-card' data-tags="Co-Author, Pulmonary, Drug Discovery, E-cigarette Toxicology, JCR-Q1">
     <div class='paper-box-text'>
       <h3><a href="https://doi.org/10.1016/j.biopha.2023.115105">Cryptotanshinone alleviates lipopolysaccharide and cigarette smoke-induced chronic obstructive pulmonary disease in mice via the Keap1/Nrf2 axis</a></h3>
       <div class="authors">H Song, L Jiang, W Yang, <span class="primary-gradient-text">Y Dai</span>, Y Wang, Z Li, P Liu, J Chen</div>
@@ -156,7 +169,7 @@ header:
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Co-Author, Neuroprotection, JCR-Q1">
+  <div class='paper-box floating-card' data-tags="Co-Author, Neuroprotection, Drug Discovery, JCR-Q1">
     <div class='paper-box-text'>
       <h3><a href="https://doi.org/10.3390/ph18081080">α-Ketoglutarate attenuates oxidative stress-induced neuronal aging via modulation of the mTOR pathway</a></h3>
       <div class="authors">R Guan, Z Xue, K Huang, Y Zhao, G He, <span class="primary-gradient-text">Y Dai</span>, M Liang, Y Wen, X Ye, ...</div>
@@ -164,7 +177,7 @@ header:
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Co-Author, Drug Discovery, JCR-Q1">
+  <div class='paper-box floating-card' data-tags="Co-Author, Drug Discovery, Neuroprotection, JCR-Q1">
     <div class='paper-box-text'>
       <h3><a href="https://doi.org/10.1016/j.ejmech.2025.118487">Synthesis and anti-acute ischemic stroke effect of the quinazoline-benzothiazole RIPK1 inhibitors</a></h3>
       <div class="authors">J Luo, X Liu, J Chen, R Su, G Li, G He, X Ye, <span class="primary-gradient-text">Y Dai</span>, J Zhang</div>
@@ -172,7 +185,7 @@ header:
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Co-Author, Pulmonary Fibrosis, JCR-Q1">
+  <div class='paper-box floating-card' data-tags="Co-Author, Pulmonary, Drug Discovery, JCR-Q1">
     <div class='paper-box-text'>
       <h3><a href="https://doi.org/10.3390/pharmaceutics17101307">DST-3, a Novel Modified Cryptotanshinone, Protects Against Pulmonary Fibrosis via Inhibiting STAT3/Smad Signaling Pathway and Improves Bioavailability</a></h3>
       <div class="authors">R Guan, X He, <span class="primary-gradient-text">Y Dai</span>, G Huang, Z Xue, J Chen, P Liu</div>
@@ -180,7 +193,7 @@ header:
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Co-Author, Drug Discovery, JCR-Q1">
+  <div class='paper-box floating-card' data-tags="Co-Author, Drug Discovery, Neuroprotection, JCR-Q1">
     <div class='paper-box-text'>
       <h3><a href="https://doi.org/10.1016/j.bioorg.2025.109013">Design, synthesis, anti-acute ischemic stroke (AIS) effect of receptor-interacting protein kinase 1 (RIPK1) inhibitors containing quinazoline structure</a></h3>
       <div class="authors">R Su, J Luo, X Liu, J Chen, J Zhang, G He, X Ye, <span class="primary-gradient-text">Y Dai</span>, J Zhang</div>
@@ -188,7 +201,7 @@ header:
     </div>
   </div>
 
-  <div class='paper-box floating-card' data-tags="Co-First Author, Neuroprotection, JCR-Q1">
+  <div class='paper-box floating-card' data-tags="Co-First Author, Neuroprotection, Drug Discovery, JCR-Q1">
     <div class='paper-box-text'>
       <h3><a href="https://doi.org/10.3390/ph18050728">Phytochemical Analysis and Neuroprotective Effect of Salvia castanea Diels f. Tomentosa Stib Extracts</a></h3>
       <div class="authors">X Peng, <span class="primary-gradient-text">Y Dai</span>, J Chen, J Lu, D Zhou, F Ge, P Liu, X Zhou</div>
@@ -198,20 +211,23 @@ header:
 
 </div>
 
-<span class='anchor' id='-awards'></span>
-## 🏆 Awards
-- *2024*: &nbsp;National Scholarship (国家奖学金), Ministry of Education of China.
-
 <span class='anchor' id='-projects'></span>
 ## 🛠️ Projects
 
-<div class='paper-box floating-card'>
-  <div class='paper-box-text'>
-    <h3><a href="https://github.com/Frankkk1912/xstars" class="link-accent">XSTARS</a></h3>
-    <div class="venue">A free open-source Excel add-in for automated statistical testing and publication-quality figure generation. Built for researchers who need fast, reproducible data visualization without coding.</div>
-    <div class="links">
-      <a href="https://github.com/Frankkk1912/xstars" class="btn-accent"><i class="fab fa-github"></i> GitHub</a>
-    </div>
+<div class="project-showcase floating-card">
+  <div class="project-header">
+    <h3 class="project-title">XSTARS</h3>
+    <span class="project-badge">Active Development</span>
+  </div>
+  <p class="project-desc">A free, open-source Excel add-in that automates statistical testing and generates publication-quality figures — designed so bench researchers can go from raw data to journal-ready visuals without writing a single line of code.</p>
+  <div class="project-features">
+    <span class="project-tag">Excel Add-in</span>
+    <span class="project-tag">Statistical Testing</span>
+    <span class="project-tag">Figure Generation</span>
+    <span class="project-tag">Open Source</span>
+  </div>
+  <div class="card-actions">
+    <a href="https://github.com/Frankkk1912/xstars" class="card-link"><i class="fab fa-github"></i> View on GitHub</a>
   </div>
 </div>
 
@@ -222,15 +238,18 @@ header:
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-flask"></i> Research Collaboration</h3>
     <p>Interested in collaborations on cardiovascular pharmacology, multi-omics analysis, or translational drug discovery.</p>
-    <a href="mailto:frank1912f@gmail.com" class="link-accent">✉ frank1912f@gmail.com</a>
+    <div class="card-actions">
+      <a href="mailto:frank1912f@gmail.com" class="card-link"><i class="fas fa-envelope"></i> Get in Touch</a>
+    </div>
   </div>
 
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-briefcase"></i> Consulting</h3>
     <p>Available for consulting in data analysis (R/Python, bioinformatics), clinical research, and pharmaceutical science.</p>
-    <a href="mailto:frank1912f@gmail.com" class="link-accent">✉ frank1912f@gmail.com</a>
-    &nbsp;&nbsp;
-    <a href="https://www.linkedin.com/in/frank-dai-a95b223b5" class="link-accent"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <div class="card-actions">
+      <a href="mailto:frank1912f@gmail.com" class="card-link"><i class="fas fa-envelope"></i> Get in Touch</a>
+      <a href="https://www.linkedin.com/in/frank-dai-a95b223b5" class="card-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
   </div>
 </div>
 
