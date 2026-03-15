@@ -655,6 +655,21 @@ p, li, .authors, .venue {
   }
 }
 
+// Sidebar link hover — text shifts right, no underline
+.author__urls a {
+  display: inline-block;
+  text-decoration: none;
+  transition: color 0.25s ease, transform 0.25s ease;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    transform: translateX(3px);
+    text-decoration: none;
+  }
+}
+
+
 
 // -------------------------------------------------------------
 // 9. Animations & Utilities
