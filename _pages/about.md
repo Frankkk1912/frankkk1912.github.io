@@ -39,7 +39,7 @@ header:
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
     <h3>🔬 Researcher</h3>
-    <p>Author of <span class="primary-gradient-text">10+ peer-reviewed publications</span> with 136+ citations (h-index: 4). First-author work published in <em>Environment International</em> (IF 9.7), <em>Phytomedicine</em> (IF 8.3), and other JCR-Q1 journals.</p>
+    <p>Author of <span class="primary-gradient-text">11+ peer-reviewed publications</span> with 147+ citations (h-index: 5). First-author work published in <em>Environment International</em> (IF 9.7), <em>Phytomedicine</em> (IF 8.3), and other JCR-Q1 journals.</p>
     <div class="card-actions">
       <a href="https://scholar.google.com/citations?user=f7g1s5sAAAAJ" class="card-link"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
     </div>
@@ -113,15 +113,15 @@ header:
 
 <div class="stat-cards fade-in-up">
   <div class="stat-card">
-    <div class="stat-number">10<span class="stat-plus">+</span></div>
+    <div class="stat-number">11<span class="stat-plus">+</span></div>
     <div class="stat-label">Publications</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number"><span id="citation-count">136</span><span class="stat-plus">+</span></div>
+    <div class="stat-number"><span id="citation-count">147</span><span class="stat-plus">+</span></div>
     <div class="stat-label">Citations</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">4</div>
+    <div class="stat-number">5</div>
     <div class="stat-label">h-index</div>
   </div>
 </div>
@@ -129,11 +129,19 @@ header:
 <div id="publications-wrapper">
   <div id="filter-container"></div>
 
+  <div class='paper-box floating-card' data-tags="Co-First Author, Cardiovascular, Drug Discovery, JCR-Q1">
+    <div class='paper-box-text'>
+      <h3><a href="https://doi.org/10.1016/j.phymed.2026.158085">Xueshuantong injection alleviates ischemic heart failure via targeting PFKP-mediated endothelial-to-mesenchymal transition</a></h3>
+      <div class="authors">L Su, R Mo, <span class="primary-gradient-text">Y Dai</span>, Z Wang, S Lai, L Mo, T Jiang, X Li, M Chen, Z Li</div>
+      <div class="venue">Phytomedicine (2026) — IF=8.3, JCR-Q1</div>
+    </div>
+  </div>
+
   <div class='paper-box floating-card' data-tags="First Author, Neuroprotection, Drug Discovery, JCR-Q1">
     <div class='paper-box-text'>
       <h3><a href="https://doi.org/10.1016/j.phymed.2025.157223">DST-3, a novel cryptotanshinone derivate, attenuates glutamate excitotoxicity after ischemic stroke via CREB-Homer1 axis activation</a></h3>
       <div class="authors"><span class="primary-gradient-text">Y Dai</span>, J Yu, G He, M Liang, YZ Wen, R Guan, X Ye, Y Guo, J Lu, J Chen, ...</div>
-      <div class="venue">Phytomedicine 147, 157223 (2025) — IF=8.3, JCR-Q1</div>
+      <div class="venue">Phytomedicine 147, 157223 (2025) — IF=8.3, JCR-Q1 | Cited: 1</div>
     </div>
   </div>
 
@@ -157,7 +165,7 @@ header:
     <div class='paper-box-text'>
       <h3><a href="https://doi.org/10.1186/s12889-023-15356-8">Cigarettes smoking and e-cigarettes using among university students: a cross-section survey in Guangzhou, China, 2021</a></h3>
       <div class="authors">H Song, X Yang, W Yang, <span class="primary-gradient-text">Y Dai</span>, K Duan, X Jiang, G Huang, M Li, ...</div>
-      <div class="venue">BMC Public Health 23 (1), 438 (2023) — IF=3.6, JCR-Q1 | Cited: 58</div>
+      <div class="venue">BMC Public Health 23 (1), 438 (2023) — IF=3.6, JCR-Q1 | Cited: 61</div>
     </div>
   </div>
 
@@ -165,7 +173,7 @@ header:
     <div class='paper-box-text'>
       <h3><a href="https://doi.org/10.1016/j.biopha.2023.115105">Cryptotanshinone alleviates lipopolysaccharide and cigarette smoke-induced chronic obstructive pulmonary disease in mice via the Keap1/Nrf2 axis</a></h3>
       <div class="authors">H Song, L Jiang, W Yang, <span class="primary-gradient-text">Y Dai</span>, Y Wang, Z Li, P Liu, J Chen</div>
-      <div class="venue">Biomedicine & Pharmacotherapy 165, 115105 (2023) — IF=7.5, JCR-Q1 | Cited: 43</div>
+      <div class="venue">Biomedicine & Pharmacotherapy 165, 115105 (2023) — IF=7.5, JCR-Q1 | Cited: 45</div>
     </div>
   </div>
 
@@ -173,7 +181,7 @@ header:
     <div class='paper-box-text'>
       <h3><a href="https://doi.org/10.3390/ph18081080">α-Ketoglutarate attenuates oxidative stress-induced neuronal aging via modulation of the mTOR pathway</a></h3>
       <div class="authors">R Guan, Z Xue, K Huang, Y Zhao, G He, <span class="primary-gradient-text">Y Dai</span>, M Liang, Y Wen, X Ye, ...</div>
-      <div class="venue">Pharmaceuticals 18 (8), 1080 (2025) — IF=4.8, JCR-Q1 | Cited: 3</div>
+      <div class="venue">Pharmaceuticals 18 (8), 1080 (2025) — IF=4.8, JCR-Q1 | Cited: 5</div>
     </div>
   </div>
 
@@ -189,7 +197,7 @@ header:
     <div class='paper-box-text'>
       <h3><a href="https://doi.org/10.3390/pharmaceutics17101307">DST-3, a Novel Modified Cryptotanshinone, Protects Against Pulmonary Fibrosis via Inhibiting STAT3/Smad Signaling Pathway and Improves Bioavailability</a></h3>
       <div class="authors">R Guan, X He, <span class="primary-gradient-text">Y Dai</span>, G Huang, Z Xue, J Chen, P Liu</div>
-      <div class="venue">Pharmaceutics 17 (10), 1307 (2025) — IF=5.5, JCR-Q1</div>
+      <div class="venue">Pharmaceutics 17 (10), 1307 (2025) — IF=5.5, JCR-Q1 | Cited: 1</div>
     </div>
   </div>
 
@@ -205,7 +213,7 @@ header:
     <div class='paper-box-text'>
       <h3><a href="https://doi.org/10.3390/ph18050728">Phytochemical Analysis and Neuroprotective Effect of Salvia castanea Diels f. Tomentosa Stib Extracts</a></h3>
       <div class="authors">X Peng, <span class="primary-gradient-text">Y Dai</span>, J Chen, J Lu, D Zhou, F Ge, P Liu, X Zhou</div>
-      <div class="venue">Pharmaceuticals 18 (5), 728 (2025) — IF=4.8, JCR-Q1</div>
+      <div class="venue">Pharmaceuticals 18 (5), 728 (2025) — IF=4.8, JCR-Q1 | Cited: 2</div>
     </div>
   </div>
 
