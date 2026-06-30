@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuxing Dai (Frank) - Alignerr Biology Expert Resume</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --deep-blue: #0f2744;
+    --blue-mid: #1a3a5c;
+    --green: #1e6b52;
+    --green-light: #27a077;
+    --cream: #faf9f7;
+    --warm-gray: #f0eeeb;
+    --text-primary: #1a1a1a;
+    --text-secondary: #4a4a4a;
+    --text-muted: #6e6e6e;
+    --text-on-dark: #e8e6e1;
+    --text-on-dark-muted: #a8b4c2;
+    --sidebar-w: 238px;
+    --font-display: 'Cormorant Garamond', 'Georgia', serif;
+    --font-body: 'IBM Plex Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  @page { size: A4; margin: 0; }
+
+  html {
+    font-size: 10px;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+    line-height: 1.44;
+    color: var(--text-primary);
+    background: #ddd;
+  }
+
+  .page {
+    width: 210mm;
+    height: 297mm;
+    overflow: hidden;
+    margin: 20px auto;
+    background: var(--cream);
+    display: flex;
+    position: relative;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  }
+
+  @media print {
+    body { background: none; }
+    .page { margin: 0; box-shadow: none; }
+  }
+
+  /* SIDEBAR */
+  .sidebar {
+    width: var(--sidebar-w);
+    min-width: var(--sidebar-w);
+    background: var(--deep-blue);
+    color: var(--text-on-dark);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .sidebar::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 30% 0%, rgba(30,107,82,0.15) 0%, transparent 60%),
+      radial-gradient(ellipse at 70% 100%, rgba(26,58,92,0.2) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .sidebar > * { position: relative; z-index: 1; }
+
+  .avatar-area { padding: 28px 22px 16px; text-align: center; }
+
+  .avatar {
+    width: 105px; height: 105px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--green);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+
+  .sidebar-name {
+    font-family: var(--font-display);
+    font-size: 2rem; font-weight: 700;
+    letter-spacing: 0.02em;
+    margin-top: 12px; line-height: 1.15; color: #fff;
+  }
+
+  .sidebar-title {
+    font-size: 1.08rem; font-weight: 300;
+    color: var(--green-light);
+    margin-top: 4px; letter-spacing: 0.03em;
+  }
+
+  .sidebar-section { padding: 10px 20px; }
+  .sidebar-section + .sidebar-section { border-top: 1px solid rgba(255,255,255,0.08); }
+
+  .sidebar-heading {
+    font-family: var(--font-display);
+    font-size: 1.28rem; font-weight: 600;
+    color: var(--green-light);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 8px;
+  }
+
+  /* Contact */
+  .contact-list { list-style: none; }
+  .contact-list li {
+    display: flex; align-items: center;
+    gap: 8px; margin-bottom: 5px;
+    font-size: 1.1rem; line-height: 1.4;
+    color: var(--text-on-dark-muted);
+  }
+  .contact-list li i {
+    width: 14px; text-align: center;
+    color: var(--green-light); font-size: 1rem;
+  }
+  .contact-list a {
+    color: var(--text-on-dark);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+  }
+
+  /* Education */
+  .edu-item { margin-bottom: 9px; }
+  .edu-degree { font-weight: 500; font-size: 1.12rem; color: #fff; line-height: 1.25; }
+  .edu-school { font-size: 1.04rem; color: var(--text-on-dark-muted); line-height: 1.25; }
+  .edu-date { font-size: 0.96rem; color: var(--green-light); font-weight: 300; }
+
+  /* Skills */
+  .skill-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+  .skill-tag {
+    font-size: 1.02rem; padding: 2.5px 7px;
+    border-radius: 3px;
+    background: rgba(255,255,255,0.07);
+    color: var(--text-on-dark); line-height: 1.45;
+  }
+  .skill-tag.accent { background: rgba(30,107,82,0.3); color: #b8e6d4; }
+
+  /* Open source */
+  .tools-text { font-size: 1.06rem; color: var(--text-on-dark-muted); line-height: 1.45; }
+
+  /* Award */
+  .award-name { font-weight: 500; font-size: 1.08rem; color: #fff; line-height: 1.35; }
+  .award-org { font-size: 0.96rem; color: var(--text-on-dark-muted); }
+
+  /* Languages */
+  .language-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 1.06rem;
+    line-height: 1.35;
+    color: var(--text-on-dark-muted);
+    margin-bottom: 4px;
+  }
+  .language-item strong { color: #fff; font-weight: 500; }
+  .language-item span { color: var(--green-light); font-weight: 300; }
+
+  .sidebar-spacer { flex: 1; }
+
+  .sidebar-footer {
+    padding: 14px 20px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    text-align: center;
+  }
+  .sidebar-footer a {
+    font-size: 1rem; color: var(--text-on-dark-muted);
+    text-decoration: none; letter-spacing: 0.02em;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+  }
+  .sidebar-footer .label {
+    display: block;
+    font-size: 0.88rem;
+    color: rgba(255,255,255,0.35);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 4px;
+  }
+
+  /* MAIN */
+  .main {
+    flex: 1;
+    padding: 22px 26px 36px 28px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-heading {
+    font-family: var(--font-display);
+    font-size: 1.52rem; font-weight: 700;
+    color: var(--deep-blue);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 8px; padding-bottom: 4px;
+    border-bottom: 2px solid var(--green);
+    display: flex; align-items: center; gap: 6px;
+  }
+  .section-heading:first-child { margin-top: 0; }
+  .section-heading .accent-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--green); flex-shrink: 0;
+  }
+
+  /* Summary */
+  .summary {
+    font-size: 1.18rem; line-height: 1.54;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+  }
+  .summary strong { color: var(--text-primary); font-weight: 500; }
+  .summary .highlight { color: var(--green); font-weight: 500; }
+
+  /* Key qualifications - 2-col grid, smaller font */
+  .quals {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 12px;
+    margin-bottom: 0;
+  }
+  .qual-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 1.02rem;
+    line-height: 1.32;
+    color: var(--text-secondary);
+  }
+  .qual-item::before {
+    content: '';
+    flex-shrink: 0;
+    width: 4px; height: 4px; margin-top: 5px;
+    border-radius: 1px;
+    background: var(--green);
+    transform: rotate(45deg);
+  }
+  .qual-item strong { color: var(--text-primary); font-weight: 500; }
+
+  /* Experience */
+  .exp-header {
+    display: flex; justify-content: space-between;
+    align-items: baseline; margin-bottom: 5px;
+  }
+  .exp-role { font-weight: 600; font-size: 1.22rem; color: var(--text-primary); }
+  .exp-date { font-size: 1.02rem; color: var(--text-muted); font-weight: 300; }
+  .exp-org { font-size: 1.06rem; color: var(--green); margin-bottom: 4px; }
+
+  .exp-bullets { list-style: none; }
+  .exp-bullets li {
+    position: relative;
+    padding-left: 12px; margin-bottom: 8px;
+    font-size: 1.08rem; line-height: 1.46;
+    color: var(--text-secondary);
+  }
+  .exp-bullets li::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 7px;
+    width: 4px; height: 4px;
+    border-radius: 50%;
+    background: var(--blue-mid);
+  }
+  .exp-bullets li strong { font-weight: 600; color: var(--text-primary); }
+
+  /* Publications */
+  .pub-meta {
+    font-size: 1.02rem; color: var(--text-muted);
+    font-style: italic; margin-bottom: 10px;
+  }
+  .pub-list { list-style: none; counter-reset: pub; }
+  .pub-list li {
+    position: relative;
+    padding-left: 20px; margin-bottom: 9px;
+    font-size: 1.04rem; line-height: 1.46;
+    color: var(--text-secondary);
+    counter-increment: pub;
+  }
+  .pub-list li::before {
+    content: counter(pub) ".";
+    position: absolute; left: 0;
+    font-weight: 600; color: var(--deep-blue);
+    font-size: 1.04rem;
+  }
+  .pub-list .me { font-weight: 600; color: var(--deep-blue); }
+  .pub-list .journal { font-style: italic; }
+  .if-badge {
+    display: inline-block; font-size: 0.88rem;
+    font-weight: 600; font-style: normal;
+    color: var(--green);
+    background: rgba(30,107,82,0.08);
+    padding: 0 5px; border-radius: 2px; margin-left: 2px;
+  }
+  .role-badge {
+    display: inline-block; font-size: 0.86rem;
+    font-weight: 500; font-style: normal;
+    color: var(--deep-blue);
+    background: rgba(15,39,68,0.07);
+    padding: 0 5px; border-radius: 2px; margin-left: 2px;
+  }
+  .pub-footnote {
+    font-size: 0.98rem; color: var(--text-muted);
+    font-style: italic; margin-top: 2px; padding-left: 20px;
+    line-height: 1.32;
+  }
+
+  /* Award - same section style as publications */
+  .award-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.16rem;
+    line-height: 1.45;
+    color: var(--text-secondary);
+  }
+  .award-content i {
+    font-size: 1.3rem;
+    color: var(--green);
+    flex-shrink: 0;
+  }
+  .award-content strong {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+  .award-content .award-org {
+    color: var(--text-muted);
+    font-size: 1.06rem;
+  }
+
+  /* Open Source */
+  .opensource-card {
+    background: var(--warm-gray);
+    border-radius: 5px;
+    padding: 14px 16px;
+    border-left: 3px solid var(--green);
+  }
+  .opensource-header {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 6px;
+  }
+  .opensource-name {
+    font-weight: 600;
+    font-size: 1.12rem;
+    color: var(--deep-blue);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(15,39,68,0.2);
+  }
+  .opensource-badge {
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--green);
+    background: rgba(30,107,82,0.1);
+    padding: 1px 8px;
+    border-radius: 3px;
+    letter-spacing: 0.02em;
+  }
+  .opensource-desc {
+    display: inline;
+    font-size: 0.98rem;
+    line-height: 1.28;
+    color: var(--text-secondary);
+  }
+  .opensource-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .opensource-tag {
+    font-size: 0.94rem;
+    padding: 2px 7px;
+    border-radius: 3px;
+    background: rgba(15,39,68,0.06);
+    color: var(--text-muted);
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="avatar-area">
+      <img class="avatar" src="images/avatar.jpg" alt="Yuxing Dai">
+      <div class="sidebar-name">Yuxing Dai</div>
+      <div class="sidebar-title">Biology Expert &middot; Bioinformatics</div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-heading">Contact</div>
+      <ul class="contact-list">
+        <li><i class="fas fa-envelope"></i> frank1912f@gmail.com</li>
+        <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/frank-dai-a95b223b5">LinkedIn</a></li>
+        <li><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=f7g1s5sAAAAJ">Google Scholar</a></li>
+        <li><i class="fab fa-orcid"></i> <a href="https://orcid.org/0000-0001-9216-7948">ORCID</a></li>
+        <li><i class="fab fa-github"></i> <a href="https://github.com/Frankkk1912">GitHub</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-heading">Education</div>
+      <div class="edu-item">
+        <div class="edu-degree">PhD in Pharmacology</div>
+        <div class="edu-school">Sun Yat-sen University</div>
+        <div class="edu-date">2025.09 - Present</div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-degree">MSc in Pharmacology</div>
+        <div class="edu-school">Sun Yat-sen University</div>
+        <div class="edu-date">2022.09 - 2025.06</div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-degree">BSc</div>
+        <div class="edu-school">Southern Medical University</div>
+        <div class="edu-date">2018.06 - 2022.09</div>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-heading">Technical Skills</div>
+      <div class="skill-tags">
+        <span class="skill-tag accent">Multi-omics</span>
+        <span class="skill-tag accent">AI4S/AIDD</span>
+        <span class="skill-tag accent">MD Simulation</span>
+        <span class="skill-tag">R</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Machine Learning</span>
+        <span class="skill-tag">Virtual Cell</span>
+        <span class="skill-tag">Molecular Docking</span>
+        <span class="skill-tag">Seurat</span>
+        <span class="skill-tag">Scanpy</span>
+        <span class="skill-tag">Single-cell RNA-seq</span>
+        <span class="skill-tag">Bulk RNA-seq</span>
+        <span class="skill-tag">Pathway Analysis</span>
+        <span class="skill-tag">Network Biology</span>
+        <span class="skill-tag">PyTorch</span>
+        <span class="skill-tag">AI-assisted Coding</span>
+        <span class="skill-tag">Skill Creator</span>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-heading">Languages</div>
+      <div class="language-item"><strong>English</strong><span>Fluent</span></div>
+      <div class="language-item"><strong>Mandarin Chinese</strong><span>Native</span></div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-heading">Award</div>
+      <div>
+        <div class="award-name">National Scholarship for Graduate Students</div>
+        <div class="award-org">Ministry of Education of China, 2024</div>
+      </div>
+    </div>
+
+    <div class="sidebar-spacer"></div>
+
+    <div class="sidebar-footer">
+      <span class="label">Academic Homepage</span>
+      <a href="https://frankkk1912.github.io"><i class="fas fa-flask" style="margin-right:4px"></i>frankkk1912.github.io</a>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <div class="summary">
+      Pharmacology PhD candidate and biology expert with <strong>hands-on disease-modeling experience</strong>, <strong>multi-omics bioinformatics training</strong>, and <strong>AI4S/AIDD-relevant research</strong>. Author of <span class="highlight">12+ peer-reviewed publications</span> (169+ citations, h-index 5, IF up to 14.6). Experienced in designing rigorous experiments, interpreting omics data, and writing clear, high-depth biological reasoning for AI model evaluation.
+    </div>
+
+    <!-- Key Qualifications -->
+    <div class="section-heading"><span class="accent-dot"></span>Key Qualifications</div>
+    <div class="quals">
+      <div class="qual-item"><strong>Advanced biology</strong> problem design and review</div>
+      <div class="qual-item"><strong>R / Python</strong> multi-omics workflows</div>
+      <div class="qual-item"><strong>Genetics, transcriptomics,</strong> pathway reasoning</div>
+      <div class="qual-item"><strong>AI4S/AIDD</strong> ML and virtual-cell literacy</div>
+      <div class="qual-item"><strong>Controls, confounders,</strong> reproducibility</div>
+      <div class="qual-item"><strong>Fluent English</strong> scientific communication</div>
+    </div>
+
+    <!-- Research Experience -->
+    <div class="section-heading"><span class="accent-dot"></span>Research Experience</div>
+    <div class="exp-header">
+      <span class="exp-role">Graduate Researcher</span>
+      <span class="exp-date">2022 - Present</span>
+    </div>
+    <div class="exp-org">Sun Yat-sen University &middot; School of Pharmaceutical Sciences</div>
+    <ul class="exp-bullets">
+      <li><strong>Formulated complex biological research questions</strong> in pharmacology, molecular mechanisms, omics interpretation, experimental design, and translational drug discovery.</li>
+      <li><strong>Applied multi-omics bioinformatics analysis</strong> to map cell-type-specific injury mechanisms in cardiovascular disease models using R/Python-based workflows.</li>
+      <li><strong>Interpreted transcriptomic, pathway, and phenotype evidence</strong> to connect molecular mechanisms with disease progression, target hypotheses, and experimental validation.</li>
+      <li><strong>Advanced AIDD-relevant therapeutic research</strong> on cryptotanshinone derivative DST-3, linking compound design, MD/docking-aware hypotheses, and in-vivo validation.</li>
+      <li><strong>Designed rigorous wet-lab studies</strong> with attention to controls, confounders, blinding, reproducibility, dose-response logic, and data interpretation.</li>
+      <li><strong>Reviewed and communicated scientific evidence</strong> through manuscripts, data summaries, and clear expert-level explanations for cross-domain collaborators.</li>
+    </ul>
+
+    <!-- Publications -->
+    <div class="section-heading"><span class="accent-dot"></span>Selected Publications</div>
+    <div class="pub-meta">12+ total publications &middot; 169+ citations &middot; h-index 5</div>
+    <ol class="pub-list">
+      <li>
+        Zhang J, <span class="me">Dai Y</span> (co-first), Yu J, Chen Y, et al. "SNX3 exacerbates hepatic fibrosis by amplifying TGF-&beta;1/Smad signaling pathway in hepatocyte-HSC fibrotic loop."
+        <span class="journal">Acta Pharmaceutica Sinica B</span> (2026). <span class="if-badge">IF 14.6</span> <span class="role-badge">Co-1st</span> Cited: 0
+      </li>
+      <li>
+        Su L, Mo R, <span class="me">Dai Y</span>, Wang Z, et al. "Xueshuantong injection alleviates ischemic heart failure via targeting PFKP-mediated endothelial-to-mesenchymal transition."
+        <span class="journal">Phytomedicine</span>, 158085 (2026). <span class="if-badge">IF 11.3</span> <span class="role-badge">Co-1st</span> Cited: 1
+      </li>
+      <li>
+        <span class="me">Dai Y</span>, Yu J, He G, et al. "DST-3 attenuates glutamate excitotoxicity after ischemic stroke via CREB-Homer1 axis activation."
+        <span class="journal">Phytomedicine</span> 147, 157223 (2025). <span class="if-badge">IF 11.3</span> <span class="role-badge">1st Author</span> Cited: 2
+      </li>
+      <li>
+        <span class="me">Dai Y</span>, Yang W, Song H, et al. "Long-term effects of e-cigarette aerosol on cardiovascular and pulmonary systems: A comparative study to cigarette smoke."
+        <span class="journal">Environment International</span> 185, 108521 (2024). <span class="if-badge">IF 10.2</span> <span class="role-badge">1st Author</span> Cited: 25
+      </li>
+      <li>
+        <span class="me">Dai Y</span>, Duan K, Huang G, et al. "E-cigarette inhalation effects on lung function and inflammation in mice."
+        <span class="journal">Frontiers in Toxicology</span> 5, 1232040 (2023). <span class="if-badge">IF 5.1</span> <span class="role-badge">1st Author</span> Cited: 13
+      </li>
+    </ol>
+    <div class="pub-footnote">Additional JCR-Q1 work spans biotechnology, medicinal chemistry, neuroprotection, pulmonary fibrosis, public health, and drug discovery.</div>
+
+    <!-- Open Source -->
+    <div class="section-heading"><span class="accent-dot"></span>Open Source</div>
+    <div class="opensource-card">
+      <div class="opensource-header">
+        <a href="https://github.com/Frankkk1912/xstars" class="opensource-name">XSTARS</a>
+        <span class="opensource-badge">Active Development</span>
+      </div>
+      <div class="opensource-desc">Open-source Excel add-in for automated statistics, data quality checks, and publication-quality figures for bench researchers; built through AI-assisted, rapid research-tool development. <span class="if-badge">VBA / Python</span> <span class="role-badge" style="color:#d4a017; background:rgba(212,160,23,0.1);">Stars 14</span></div>
+    </div>
+
+  </main>
+
+</div>
+
+</body>
+</html>
